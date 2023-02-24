@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    background-color: black;
+    color: white;
+}
+
+header > div.container {
+    display: flex;
+}
+
+div.container > ul {
+    display: flex;
+}
+
+div.container > ul > li {
+    padding: 5px 40px;
+    list-style: none;
+} 
+
+div.container > form {
+    justify-content: end;
+}
+
+header > nav > ul {
+    display: flex;
+    margin: 0px 10px;
+}
+
+header > nav > ul > li {
+    flex: 1;
+    background-color: rgba(94, 90, 90, 0.438);
+    padding: 10px;
+    list-style: none;
+}
+
+a {
+    padding: 15px;
+    color: gray;
+    text-decoration: none;
+}
