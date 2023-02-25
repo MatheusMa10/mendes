@@ -12,6 +12,8 @@ html, body {
 
 header > div.container {
     display: flex;
+    flex-flow: row wrap;
+    
 }
 
 div.container > ul {
@@ -24,7 +26,7 @@ div.container > ul > li {
 } 
 
 div.container > form {
-    justify-content: end;
+    margin-left: 800px;
 }
 
 header > nav > ul {
